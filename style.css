@@ -7,13 +7,13 @@
     body {
       font-family: Arial, sans-serif;
       line-height: 1.6;
-      background: #f9f9f9;
-      color: #333;
+      background: #0f9cdd58;
+      color: #000000;
     }
  
     header {
-      background: #2c3e50;
-      color: white;
+      background: #4249d300;
+      color: rgba(0, 0, 0, 0.453);
       padding: 20px;
     }
  
@@ -40,7 +40,7 @@
     }
  
     .menu a {
-      color: white;
+      color: rgb(255, 14, 14);
       text-decoration: none;
       font-weight: 500;
     }
@@ -52,8 +52,8 @@
  
     .hero {
       padding: 80px 0;
-      background: #3498db;
-      color: white;
+      background: #9a294500;
+      color: rgba(17, 16, 16, 100);
       text-align: center;
     }
  
@@ -69,8 +69,8 @@
  
     .hero button {
       padding: 12px 24px;
-      background: white;
-      color: #3498db;
+      background: rgba(255, 0, 0, 0);
+      color: #3b000000;
       border: none;
       cursor: pointer;
       font-weight: bold;
@@ -89,25 +89,25 @@
  
     .grid-item {
       flex: 1 1 250px;
-      background: white;
+      background: rgba(15, 15, 208, 0.505);
       padding: 20px;
       border-radius: 8px;
-      box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+      box-shadow: 0 2px 5px rgba(182, 14, 14, 0.1);
     }
  
     footer {
-      background: #2c3e50;
-      color: white;
+      background: #000000;
+      color: rgb(255, 255, 255);
       text-align: center;
       padding: 20px;
-    }
+    }s
  
     /* Responsividade */
     @media (max-width: 768px) {
       .menu {
         display: none;
         flex-direction: column;
-        background: #2c3e50;
+        background: #633200;
         position: absolute;
         top: 70px;
         right: 20px;
@@ -122,5 +122,9 @@
       .menu-toggle {
         display: block;
       }
+    }
+
+    h2{
+      color: black;
     }
   
